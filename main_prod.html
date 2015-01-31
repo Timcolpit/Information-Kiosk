@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!--    <link href='google_fonts.css' rel='stylesheet' type='text/css'>  -->
+    <!-- We primarily use Open Sans, a great free font, available at opensans.com -->
+    <script src="jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="kiosk.js" type="text/javascript"></script>
+
+    <title>ausTIN CANs Kiosk</title>
+
+    <!--SMOOTH SCROLLING-->
+    <script type="text/javascript">
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({scrollTop: target.offset().top}, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+    <!--END SMOOTH SCROLL CODE-->
+
+  </head>
+  <body>
+      
+      <video autoplay loop poster="media/sequence.mp4" id="bgvid">
+      <source src="media/sequence.webm">
+      </video>
+
+    <!-- LE -->
+
+    <div class="nav">
+      <div class="butt" id="zer_butt"><span class="title">Home</span></div>
+      <div class="butt" id="one_butt">about us</div>
+      <div class="butt" id="two_butt">partnerships</div>
+      <div class="butt" id="thr_butt">our robot</div>
+      <div class="butt" id="fou_butt">engineering education</div>
+      <div class="butt" id="fiv_butt">community outreach</div>
+      <div class="butt" id="six_butt">entrepreneurship</div>
+      <div class="butt" id="sev_butt">growing FIRST</div>
+      <div class="butt" id="eig_butt">TRR</div>
+      <div class="butt" id="nin_butt">CAN Talks</div>
+      <div class="butt" id="ten_butt" style="padding: 0px;"><!-- Pictures! --></div>
+    </div>
+
+    <article id="home" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Home</header>
+
+      <section class="eighty-mod left">
+        Team 2158 – the ausTIN CANs, was founded in 2007. Since being recognized with the Rookie All-Star Award, we’ve worked to transform our culture and inspire the next generation of innovators and engineers. As Austinites identifying with the famous motto:1 “Keep Austin Weird,” our team members collaborate to promote STEM in imaginative ways. Every year, the CANs introduce new educational opportunities, activities, and outreach that feed into Austin’s technology landscape. We support our local partners and teams, inspire community members to start new FIRST teams , and host competitions and other events. The culmination of our efforts cultivates STEM learning and strengthens FIRST’s message in our community.
+      </section>
+      <br>
+
+
+    </article>
+
+    <article id="about_us" class="cont">
+
+      <br><br>
+      <header class="subtitle">About Us</header>
+
+      <section class="eighty-mod left">
+        Team 2158 – the ausTIN CANs, was founded in 2007. Since being recognized with the Rookie All-Star Award, we’ve worked to transform our culture and inspire the next generation of innovators and engineers. As Austinites identifying with the famous motto:1 “Keep Austin Weird,” our team members collaborate to promote STEM in imaginative ways. Every year, the CANs introduce new educational opportunities, activities, and outreach that feed into Austin’s technology landscape. We support our local partners and teams, inspire community members to start new FIRST teams , and host competitions and other events. The culmination of our efforts cultivates STEM learning and strengthens FIRST’s message in our community.
+      </section>
+      <br>
+
+    </article>
+
+    <article id="partnerships" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Partnerships</header>
+
+      <section class="eighty-mod left">
+ To everyone who has donated their time, effort, and money to our team, you've allowed us to get where we are today, and your continued support will allow us to pursue greater achievements, and will facilitate a greater impact on the world. The following people and organisations have contributed their financial support towards our team.
+<br><br>Thank you so much for contributing to our story.<br>
+      </section>
+        
+<br><br><header class="center-subtitle"><b>Gold Club</b></header>
+        <section class="eighty-mod">
+            <img class="box big" src="media/nasa.png"></img>
+            <img class="box big" src="media/national_instruments1.png"></img>
+        </section>
+
+<br><br><header class="center-subtitle"><b>Titanium Club</b></header>
+        <section class="eighty-mod">
+            <img class="box little" src="media/more_space_place.png"></img>
+            <img class="box little" src="media/twc.png"></img>
+            <img class="box little" src="media/retailmenot_360.png"></img>
+        </section>
+        <section class="eighty-mod">
+            <img class="box little" src="media/texas_instruments.png"></img>
+            <img class="box little" src="media/east_side_pies.png"></img>
+            <img class="box little" src="media/kent_firestone1.png"></img>
+        </section>
+        <br><br>
+        <section class="half-holder">
+            <div class="half-mod"><span class="half-mod-title">Einstein Club</span><br>Texas Instruments Foundation<br>ARM Automation, Inc.<br>Titus Works LLC<br>East Side Pies<br>Frost Bank</div>
+            <div class="half-mod"><span class="half-mod-title">DaVinci Club</span><br>Flagship Manufacturing Corp<br>Bridgeport Instruments<br>Thomas Brocato<br>Barbara Neill<br>Scott Smith</div>
+        </section>
+        <br>
+<section class="half-holder">
+            <div class="half-mod"><span class="half-mod-title">Galileo Club</span><br>Hans-Georg Schneider<br>Austin Dermcare MSO<br>PLLC Intertech Foundation<br>Joey Cruz<br>Juanita J. Jean<br>Medi-Tex Venture<br>LP Norah Rudyk<br>Susan Lankford<br>CPA White & Ramsat D.D.S., P.C.<br>Daniel Basez<br>Joseph Castillo<br>Robert Price<br>Robert Woods<br>Rosana Castillo<br>Rozella Hernandez</div>
+            <div class="half-mod"><span class="half-mod-title">Newton Club</span><br>Michael & Kendall<br>Guess Yvonne Hellerstedt<br>Sue Hunt<br>Albert & Alese Davis<br>Austin Orthodontic Arts, PLLC<br>Austin Sylvan LLC<br>Kathleen D Jones<br>Cherie Harvey<br>Helen Beebee<br>John Price<br>Karen Watkins<br>Twila Waters<br>Nathalie Laurents<br>Jill M. Seibert<br>Alex Serafin<br>Peggy Rothenberger<br>Sherry Donahoe<br>Sierra Pedroza<br>Victoria Wicken</div>
+        </section>
+    </article>
+
+    <article id="our_robot" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Our Robot</header>
+
+      <section class="eighty-mod left">
+
+<!--                        <h2>Capabilities</h2>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>One-ball Automous</li>
+                                        <li>Truss Shot</li>
+                                        <li>Ball acquisition from ground or human player</li>
+                                        <li>2-speeds: ~5 ft./s and ~19 ft./s</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>High Goal</li>
+                                        <li>Low Goal</li>
+                                        <li>Defense</li>
+                                        <li>8-wheel tank-drive</li>
+                                    </ul>
+                                </td>
+                            </tr>
+-->                        </table>
+        <br></br>
+                        <h2>Design Process</h2> 
+                        <h3>Opportunity Cost</h3>
+                        <p>
+                            Opportunity cost analysis means considering each mechanism that not only in terms of materials, but also in terms of time lost for the development of other mechanisms. Opportunity cost analysis is a way of measuring the worth of each mechanism not only in monetary terms, but in ways of determining cost of time. To examine our design process through opportunity cost, the design team assigns a value (1-3) for both contribution to scoring goals and difficulty in planning, testing, and fabrication. We then use a set of tables to weigh contribution to scoring against opportunity cost. Ultimately, time is not over-invested in mechanisms which present limited benefit to our scoring scheme.
+                        </p>
+                        <h3>Solidworks Materials Testing</h3>
+                        <p>
+                            Team 2158’s partnership with UT Austin and ongoing associate and professional level certification programs have allowed for a more advanced understanding of the Solidworks CAD software. This year, the team began material stress testing within Solidworks as part of routine design. The effectiveness of the intake arm struts was assessed through this technology.
+                        </p>
+<br></br>
+                        <h2>Manufacturing</h2>
+                        <h3>CNC Mill and CNC Lathe</h3>
+                        <p>
+                            Advanced CAD techniques have also impacted fabrication. The Can’s acquired CNC mill and lathe technology 
+                            through partnership with the Austin Independent School District and Texas Workforce Commission, and depend 
+                            on this technology to enact precise machining objectives, such as the placement of lightening holes in intake arm 
+                            struts.
+                        </p>
+                        <h3>3D Printed Components</h3>
+                        <p>
+                            3D printing provides an advantage during design, by aiding in rapid prototyping efforts, but is also 
+                            used on the Cans’ robot in the form of independent structural elements which were 3D printed to achieve particular 
+                            shapes with relative rigidity and strength of material. The pneumatic holding tanks on the ‘Can-a-pult’ have been 3D
+                            printed.
+                        </p>     
+<br></br>
+                        <h2>Programming</h2>
+                        <p>
+                            The programming division for the ausTIN CANs works with LabVIEW, a language developed
+                            by National Innstruments. Our purpose is to help the drivers control the robot in an intuitive fashion, and
+                            to allow the robot to do as much as possible wihout need for human input. To do this,
+                            we learn how to interact with computational systems and how to devise logical steps to complete processes.
+                            Our members come from a variety of backgrounds: some have written code for years and pthers haev never
+                            touched an IDE in their lives, but all are welcome and accepted as part of our group. The difference in skill
+                            levels helps us to teach new coders quickly, while imporoving the advanced programmers' skills as well
+                        </p>
+
+      </section>
+      
+    </article>
+
+    <article id="engineering_education" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Engineering Education</header>
+
+      <section class="eighty-mod left">
+<p>
+                        2158 expands STEM education within Anderson High School and the
+                        Austin Independent School District via the influence of FIRST.
+                        To grow the program, we <b>secured $500,000</b> by impressing funders
+                        with our FIRST success, petitioning the school board, and
+                        registering for 501(c)3 status. Team-prompted reform at our
+                        school has <b>impacted 200 students this year</b> and nearly 700 total
+                        since 2009. Anderson students can move through 4 different
+                        4-year robotics pathways with <b>13 course options</b>. Independent
+                        Research and Design classes offer advanced participants a
+                        setting to undertake <b>unique projects</b>, from quadcopters and game
+                        development to audible calculators for the blind. Other courses
+                        include Electronics and <b>STEM Entrepreneurship</b> - a class where
+                        students undergo the process of creating and marketing a
+                        product. Students can also receive <b>college credit</b> and
+                        professional CAD certifications. More recently, we inspired an
+                        education foundation and the school district to fund
+                        construction of a <b>new 10,000 sq ft engineering building</b> at
+                        Anderson. Soon, up to 500 students each year will have access to
+                        technical instruction. This achievement contributes to our goal
+                        to make Anderson a <b>hub for engineering education</b> in Austin.
+                    </p><br>
+                    <p>
+                        Members of 2158 are prepared for the future with the skills
+                        they acquire from our team and FIRST. In collaboration with UT
+                        Austin, one of our team members synthesized <b>organic solar cells</b>
+                        as an alternative energy source and designed an electrode that
+                        determines <b>lead content in water</b>. Another member conceptualized
+                        and prototyped a <b>life support system</b> designed for use in space
+                        and was awarded first place at the International Science Fair,
+                        research grants, and an internship at the AMES Research Center.
+                        His project is being redesigned for <b>use on the International
+                        Space Station</b>. Because of the impact of our team and FIRST, <b>88%</b>
+                        of our 60 graduates study <b>STEM fields</b> at universities like
+                        Harvard, Cornell, Tufts, UT Austin, and the US Naval Academy.
+                        Many alumni remain active in FIRST by supporting the CANs,
+                        <b>mentoring</b> other teams, and <b>volunteering at events</b>.
+                    </p>      </section>
+      <br>
+
+    </article>
+
+    <article id="community_outreach" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Community Outreach</header>
+
+      <section class="eighty-mod left">
+<p>
+                        ausTIN CANs use media and community events to spread FIRST’s
+                        message. Time Warner Cable included our president in a 2011
+                        <strong>Connect A Million Minds PSA</strong>. American Airline’s magazine,
+                        American Way, wrote an <strong>article about our team</strong> and FIRST,
+                        spreading the message to their <strong>8 million monthly fliers</strong>. We’ve
+                        been featured in <strong>Popular Mechanics</strong> and The Austin American
+                        Statesman, and appear often in <strong>local news reports</strong>. We visit the
+                        state capitol every two years to <strong>discuss STEM education with
+                        lawmakers</strong>. This past summer, in an unconventional pairing of
+                        engineering and the arts, we hosted a <strong>Robot Fashion Show</strong> with
+                        team 3320 at Barnes and Noble. We’ve participated in Austin’s
+                        Susan G. Komen Race for the Cure, DorkBot at SXSW, RoboBaskets
+                        Day with the Austin Toros Basketball team, and Austin Maker
+                        Faire. We estimate that we’ve introduced FIRST to at least <strong>1.5
+                        million people</strong>.
+                    </p><br>
+                    <p>
+                        We hold Austin CAN! food drives at our events that benefit the Capital Area Food Bank, collecting <strong>5000 </strong>canned goods over the past 3 years. These efforts previously supported the victims of the Bastrop wildfires. The team participated in the <strong>Austin CANstruction project</strong>, promoting the end of hunger in Central Texas by building the “Whale Tail” in memory of a former Anderson science teacher who passed away this fall. Our first can drive started at our end-of-build-season practice event, Austin Robot Roundup (ARR), now in it’s 7th year. ARR gives participants an opportunity to test-drive their creations and engage with other FIRST teams.
+                    </p>      </section>
+      <br>
+
+    </article>
+
+    <article id="entrepreneurship" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Entrepreneurship</header>
+
+      <section class="eighty-mod left">
+ The ausTIN CANs provide students with real-world experiences.
+                        In 2012, we garnered support from Rackspace and 3-Day Startup to
+                        co-found <strong>High School Startup</strong>. High School Startup teaches teens
+                        the value of entrepreneurship within engineering by engaging
+                        them in the <strong>creation of a product</strong>. It takes students through
+                        phases of product development - <strong>brainstorming, market research,
+                        prototyping, and launch</strong>. Students crowdfunded their projects,
+                        including a new gearbox for robotics, a smartphone app for FRC
+                        scouting, and a musical instrument tuner. The gearbox group was
+                        <strong>featured on the Kickstarter</strong> homepage as a November 2012 Staff
+                        Pick; their project video was watched over 15,000 times. The
+                        success of the initial High School Startup is <strong>leading to its
+                        expansion</strong> and consultation for programs in San Antonio and San
+                        Francisco.      </section>
+      <br>
+
+    </article>
+
+    <article id="growing_first" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Growing FIRST</header>
+
+      <section class="eighty-mod left">
+        In the last seven years, we’ve hosted <b>25 robotics competitions</b> and volunteered at countless more. We use FLL, FTC, and VEX qualifiers, FRC scrimmages, and other robotics events to grow and promote FIRST. We forged the Austin FTC community in 2007 with the creation and funding of <b>the area’s first 14 teams</b> and proceeded to nurture teams through donation of materials, events, workshops, and training. This year, we again supported the growth of FTC in our community by donating material valued at <b>$20,000</b> to nearby schools. We encouraged our local middle schools to develop robotics programs to help found <b>24 VEX teams</b> and donated VEX kits to UT Austin’s Robotics and Automation Society as part of an ongoing partnership. In conjunction with NI, UT, and Skillpoint Alliance, we hosted <b>3 training events for teachers</b> interested in adding FLL and FTC to their classrooms. Over the past 5 summers, we’ve hosted week-long camps for students in grades 3-10, culminating in research presentations and competitions. Many of the <b>400 young campers</b> we’ve introduced to FIRST have joined FRC teams or taken robotics classes in high school. Summer camps provide funding, long-term team sustainability, and growth while inspiring the next generation.
+      </section>
+      <br>
+
+    </article>
+
+    <article id="trr" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Texas Robot Roundup</header>
+
+      <section class="eighty-mod left">
+        During the summer of 2011, we hosted the first annual Texas Robot Roundup, the first official Texas FRC off-season competition. Known as TRR, it has served as a model for new off-seasons in our state. NI, Time Warner Cable, FIRST in Texas, and the Alamo Region have partnered with our team to support the event. We work with our parent organization, mentors, and students, and many other local teams and professionals, all who serve as volunteers and provide an opportunity for teams throughout Texas and beyond to compete in the off-season. Teams can iterate their designs, try out new drivers, introduce new members, mentors, sponsors, and community members to FIRST, and attend workshops. Workshop topics include robot design, programming, team sustainability, non-engineering mentoring, strategy, and design panel discussions lead by representatives from Texas’ most successful teams to help strengthen the Texas FIRST community. TRR continues to attract more teams each year, growing from 27 robots in 2011 to 42 robots in 2013 and in 2014, we had 34 FRC robots and 10 FTC robots. This summer, we hosted TRR at NIWeek with the addition of FTC to the competitions.<br><br>
+TRR has been a platform for giving Texas teams a strong start. Weeks before the first TRR, we traveled to Killeen, TX, and helped the pre-rookies, Shadetree Mechanics Team 3999, to build a robot and compete at TRR. We provided access to parts, facilities, and expertise. Shadetree went on to win the 2012 Alamo Regional Rookie All-Star Award. Three more of the eight teams that the CANs assisted during their first year similarly received rookie recognitions: 2468, 2881, and 3320. Recently, TIN CANs members inspired VEX students at Cedar Park HS to volunteer at TRR and start rookie FRC Team 5052. This past summer, a new homeschool pre-rookie team from north Austin made their first FIRST appearance at TRR with a robot we helped them build during the off-season. Talk to us to find out how to participate in the 2015 TRR!
+<br><br>Talk to us to find out how to participate in TRR!
+      </section>
+      <br>
+
+    </article>
+
+    <article id="can_talks" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">CAN Talks</header>
+
+      <section class="eighty-mod left">
+        Our monthly, TED-esque talks allow the public, specifically students, to listen and interact with industry professionals, who share their stories and answer questions from the crowd. All talks are public, and recorded, then published online on our YouTube channel, for anyone to view. Past talks have exposed students to dozens of personal, informative presentations that help prepare them for a career in STEM or otherwise.
+          <br><br>
+        Dates are posted to our website, and we announce upcoming talks via school announcements, and word of mouth.
+      </section>
+      <br>
+        
+        <!-- FJ823S -->
+        <!-- keep the video tag, I want jams to edit down a short demo reel of a can talk for this bit -->
+        
+      <br>
+      <section class="video">
+<!--        <iframe src="http://www.youtube.com/embed/2YBtspm8j8M?controls=2" 
+          controls="2" height="480" width="853" 
+          allowfullscreen="" frameborder="0">
+        </iframe> -->
+      </section>
+      <br>
+
+    </article>
+
+    <article id="pictures" class="cont">
+
+
+      <br><br>
+      <header class="subtitle">Pictures</header>
+
+      <section class="eighty-mod left">
+        Team 2158 – the ausTIN CANs, was founded in 2007. Since being recognized with the Rookie All-Star Award, we’ve worked to transform our culture and inspire the next generation of innovators and engineers. As Austinites identifying with the famous motto:1 “Keep Austin Weird,” our team members collaborate to promote STEM in imaginative ways. Every year, the CANs introduce new educational opportunities, activities, and outreach that feed into Austin’s technology landscape. We support our local partners and teams, inspire community members to start new FIRST teams , and host competitions and other events. The culmination of our efforts cultivates STEM learning and strengthens FIRST’s message in our community.
+      </section>
+      <br>
+
+      <br>
+      <section class="video">
+<!--        <iframe src="http://www.youtube.com/embed/2YBtspm8j8M?controls=2" 
+          controls="2" height="480" width="853" 
+          allowfullscreen="" frameborder="0">
+        </iframe> -->
+      </section>
+      <br>
+
+    </article>
+    <script type="text/javascript">
+      kiosk ();
+    </script>
+    <div id="screensaver">   
+      <video id="butt_video" loop>
+        <source src="media/Chairmans 2014.webmvp8.webm"> <!--  type="video/mp4"> -->
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <script type="text/javascript">
+      screensaver ();
+    </script>
+
+
+  </body>
+</html>
